@@ -1,0 +1,5 @@
+console.log(1+"2")
+console.log(1+1+1+"21")
+console.log("2"+78+"1")
+console.log(+true)
+console.log(+"")
