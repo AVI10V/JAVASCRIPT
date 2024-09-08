@@ -6,7 +6,7 @@ console.log(typeof number)
 let nos=Number(ss)
 console.log(typeof ss)
 console.log(ss)
-let nn=1
+let nn=3
 let ans=Boolean(nn)
 console.log(typeof ans)
 let someno = 33;
