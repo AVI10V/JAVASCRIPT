@@ -28,3 +28,23 @@ const myfun=function(){
     console.log("inside")
 }
 console.log(myfun)
+
+//memory type in js stack and heap
+//primitives in stack  and n on prim in head(reference)
+
+let myname="avi"
+let anothername =myname
+anothername="verma"
+console.log(myname)
+console.log(anothername)
+let objone={
+    name:"avi",
+    age:20
+
+}
+let obj2=objone
+//obj2 goes in stack but its reference points in the heap having objone so any changes made iin 2 makes in one as well
+obj2.age=69
+console.log(objone.age) //age of 1 changed as well
+
+
