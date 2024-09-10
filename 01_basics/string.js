@@ -11,5 +11,5 @@ console.log(myname.lastIndexOf('a'))
 console.log(myname.replace('a','j'))
 console.log(name.length)
 console.log(name.substring(1))//can also use it with normalconst type
-console.log(myname.t)
+console.log(myname.trim())
 console.log(myname)

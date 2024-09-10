@@ -4,8 +4,8 @@ console.log(typeof score)
 let number=Number(score)
 console.log(typeof number)
 let nos=Number(ss)
-console.log(typeof ss)
-console.log(ss)
+console.log(typeof nos)
+console.log(nos) //not an number
 let nn=3
 let ans=Boolean(nn)
 console.log(typeof ans)

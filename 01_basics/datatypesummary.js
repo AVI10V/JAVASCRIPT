@@ -33,7 +33,7 @@ console.log(myfun)
 //primitives in stack  and n on prim in head(reference)
 
 let myname="avi"
-let anothername =myname
+let anothername=myname
 anothername="verma"
 console.log(myname)
 console.log(anothername)
