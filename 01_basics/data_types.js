@@ -1,4 +1,6 @@
 "use strict;" //to use newer version oof nodejs
+
+
 //alert(3+3) // cant use we are workin on nodejsnot on browser
 let name="avi"
 let nos=98;

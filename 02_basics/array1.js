@@ -6,13 +6,14 @@ const myarray=[1,2,3,4] //object of multiple types is js are resizeable
 myarray.push(9)
 // console.log(myarray)
 
-// shift unshift 
+ //shift unshift 
 //unshift adds the given number at 1st position and shifts the array by one
+//shift deletes the first element
 
-// myarray.unshift("sex")
-// console.log(myarray)
-// myarray.shift()
-// console.log(myarray)
+myarray.unshift("sex")
+ console.log(myarray)
+myarray.shift()
+console.log(myarray)
 
 
 

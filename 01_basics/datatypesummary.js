@@ -1,7 +1,7 @@
 //primitives 7 call by value actual null undefined numbers string bigint symbol boolean
 //m=nono prim call by ref arrays objects and function
 const id =Symbol('123')
-const anotherid=Symbol('123')
+const anotherid=Symbol('123')//symbol is used for unique 
 if(id===anotherid){
     console.log(true)
 }
@@ -9,9 +9,11 @@ else{
     console.log(false)
 }
 const hero=["avi","tanihsq"] //array
-const cars=[]
-cars[1]="brezza"
-cars[0]="honda city"
+const cars=[] //new array without defininf its size
+cars[0]="brezza"
+cars[1]="honda city"
+cars.push("i20")
+// cars.pop() used to delete the last element
 console.log(cars)
 
 //object
