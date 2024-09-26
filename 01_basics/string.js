@@ -13,3 +13,5 @@ console.log(name.length)
 console.log(name.substring(1))//can also use it with normalconst type
 console.log(myname.trim())
 console.log(myname)
+let x="avi"
+console.log(x.charAt(0))

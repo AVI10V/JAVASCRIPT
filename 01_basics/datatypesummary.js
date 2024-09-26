@@ -29,7 +29,7 @@ console.log(myobj.age)
 const myfun=function(){
     console.log("inside")
 }
-console.log(myfun)
+console.log(myfun())
 
 //memory type in js stack and heap
 //primitives in stack  and n on prim in head(reference)

@@ -4,6 +4,7 @@ console.log(typeof score)
 //score conversion 
 let number=Number(score)
 console.log(typeof number)
+console.log(score)
 
 let nos=Number(ss)
 console.log(typeof nos)
@@ -13,6 +14,7 @@ console.log(nos) //not an number NAN
 let nn=3
 let ans=Boolean(nn)
 console.log(typeof ans)
+console.log(ans)
 
 
 let someno = 33;
